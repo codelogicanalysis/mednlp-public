@@ -1,0 +1,18 @@
+This project provides the annotator tool used for abstract selection and term extraction in the paper entitled 
+"Molecular Architecture of Spinal Chord Injury with Protein Interaction Networks". 
+In addition, it also provides a sample dataset of serialized abstracts on spinal cord injury. 
+The tool was not tested with compatibility on non-Windows operating systems.
+
+Below are the instructions to use the tool:
+
+1. The bin directory contains jar files inclusive of open access third party libraries provided inside it for convenience. 
+The file dependencies are listed under the project object model file bin/pom.xml . 
+
+2. Run the jar file in the typical manner with your latest java runtime environment (jdk-1.8). A jar file compatible with jdk-1.7 is also available. 
+
+3. Select “Load Serialized Abstracts” button and choose the file "Spinal_Cord_Injury_Abstracts_04_02_14.xml.ser" which is available under the data directory.
+
+4. The abstracts will be loaded automatically and the annotated terms will be highlighted in red and yellow colors. 
+Terms can be removed or added through the context menu available through the right mouse button click shortcuts.
+
+5. The source code is available under the src directory. 
